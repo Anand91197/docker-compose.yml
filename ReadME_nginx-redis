@@ -1,0 +1,3 @@
+To check Compose file: docker-compose config
+Get Up compose: docker-compose up -d
+To scale up services: docker-compose up -d --scale database=4  
