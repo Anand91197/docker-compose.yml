@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: nginx
+    restart: always
+    ports:
+      - 90:80/tcp
+  database:
+    image: redis
+    restart: always
